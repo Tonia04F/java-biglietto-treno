@@ -27,10 +27,10 @@ public class CalcolaBiglietto {
 		
  
  		
- 		if(eta<18) {
+ 		if(eta<=18) {
  			System.out.println("il passeggero è minorenne quindi il prezzo del biglietto è: " + prezzoScontatoRagazzo);
  		}
- 		else if (eta>65) {
+ 		else if (eta>=65) {
  			System.out.println("il passeggero è anziano quindi il prezzo del biglietto è: " + prezzoScontatoAnziano);
  			
  		}
